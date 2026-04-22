@@ -1,5 +1,7 @@
 # 👤 Regras de Negócio – Usuário
 
+---
+
 ## 🖼️ Tela de Login
 
 <img width="675" height="375" alt="login png" src="https://github.com/user-attachments/assets/143204ef-aa40-450b-8d50-ae86fc86b256" />
@@ -10,169 +12,97 @@
 ## 🔐 1. Acesso do Usuário (Login)
 
 ### 📌 Descrição
-
 O usuário acessa o sistema informando suas credenciais.
 
-### ⚙️ Regras de Negócio
+### 📋 Regras de Negócio
 
-```pseudo
-REGRA: Acesso ao sistema
-
-IF usuario NÃO informar nome OU senha
-    THEN impedir acesso
-
-IF usuario NÃO estiver cadastrado
-    THEN impedir acesso
-
-IF senha incorreta
-    THEN registrar tentativa
-
-IF tentativas >= 3
-    THEN bloquear acesso do usuario
-
-IF dados válidos
-    THEN permitir acesso ao sistema
-```
+- O usuário deve informar nome e senha para acessar o sistema  
+- Não é permitido acessar o sistema com campos vazios  
+- O usuário deve estar previamente cadastrado  
+- Caso a senha esteja incorreta, uma tentativa de acesso deve ser registrada  
+- Após 3 tentativas inválidas, o acesso do usuário deve ser bloqueado temporariamente  
+- Caso os dados estejam corretos, o acesso deve ser permitido  
 
 ---
 
 ## 👤 2. Cadastro de Usuário
 
 ### 📌 Descrição
-
 O usuário pode criar uma conta para acessar o sistema.
 
-### ⚙️ Regras de Negócio
+### 📋 Regras de Negócio
 
-```pseudo
-REGRA: Criação de conta
-
-IF usuario NÃO informar nome OU senha
-    THEN impedir cadastro
-
-IF nome já estiver em uso
-    THEN impedir cadastro
-
-IF senha.length < 8
-    THEN impedir cadastro
-
-IF dados válidos
-    THEN permitir criação da conta
-```
+- O usuário deve informar nome e senha para se cadastrar  
+- Não é permitido cadastro com campos vazios  
+- O nome do usuário deve ser único no sistema  
+- A senha deve possuir no mínimo 8 caracteres  
+- Caso os dados estejam válidos, o cadastro deve ser realizado com sucesso  
 
 ---
 
 ## 🔄 3. Comportamento do Usuário no Sistema
 
-### ⚙️ Regras de Negócio
+### 📋 Regras de Negócio
 
-```pseudo
-REGRA: Sessão do usuário
-
-IF usuario realizar login
-    THEN iniciar sessão
-
-IF sessão ativa
-    THEN usuario pode acessar funcionalidades
-
-IF usuario solicitar logout
-    THEN encerrar sessão
-```
+- Ao realizar login com sucesso, a sessão do usuário deve ser iniciada  
+- Enquanto a sessão estiver ativa, o usuário pode acessar as funcionalidades do sistema  
+- O usuário pode encerrar a sessão a qualquer momento (logout)  
 
 ---
 
 ## 🧠 4. Participação no Teste Socioemocional
 
-### ⚙️ Regras de Negócio
+### 📋 Regras de Negócio
 
-```pseudo
-REGRA: Responder questionário
-
-IF usuario iniciar teste
-    THEN deve responder todas as perguntas
-
-IF usuario NÃO responder todas as perguntas
-    THEN impedir finalização
-
-IF teste concluído
-    THEN calcular pontuação do usuario
-```
-
-```pseudo
-REGRA: Cálculo da pontuação
-
-pontuacao_total = soma das respostas
-
-pontuacao_maxima = numero_perguntas * 10
-```
+- O usuário pode iniciar o teste socioemocional  
+- Todas as perguntas devem ser respondidas para concluir o teste  
+- Não é permitido finalizar o teste com perguntas em branco  
+- Ao finalizar o teste, a pontuação do usuário deve ser calculada  
+- A pontuação é baseada na soma das respostas selecionadas  
 
 ---
 
 ## 🎮 5. Uso do Simulador
 
-### ⚙️ Regras de Negócio
+### 📋 Regras de Negócio
 
-```pseudo
-REGRA: Acesso ao simulador
-
-IF usuario possuir pontuação baixa
-    THEN acesso ao simulador é obrigatório
-
-IF usuario possuir pontuação média
-    THEN acesso ao simulador é opcional
-
-IF usuario possuir pontuação alta
-    THEN acesso ao simulador é opcional
-```
+- O acesso ao simulador depende do desempenho do usuário no teste  
+- Usuários com pontuação baixa devem obrigatoriamente utilizar o simulador  
+- Usuários com pontuação média podem utilizar o simulador opcionalmente  
+- Usuários com pontuação alta também podem acessar o simulador de forma opcional  
 
 ---
 
 ## 📊 6. Evolução do Usuário
 
-```pseudo
-REGRA: Progresso do usuário
+### 📋 Regras de Negócio
 
-IF usuario melhorar desempenho
-    THEN atualizar pontuação
-
-IF usuario atingir pontuação >= 80
-    THEN classificar como "APTO"
-```
+- O desempenho do usuário deve ser atualizado conforme suas interações  
+- O usuário pode melhorar sua pontuação ao utilizar o simulador  
+- Caso atinja uma pontuação alta, o usuário deve ser classificado como apto  
 
 ---
 
 ## ⚠️ 7. Validações do Usuário
 
-```pseudo
-REGRA: Validação de dados
+### 📋 Regras de Negócio
 
-IF campos obrigatórios vazios
-    THEN impedir ações
-
-IF nome duplicado
-    THEN impedir cadastro
-
-IF senha fora do padrão
-    THEN impedir cadastro
-```
+- Campos obrigatórios não podem estar vazios  
+- Não é permitido cadastro com nome duplicado  
+- A senha deve seguir critérios mínimos de segurança  
 
 ---
 
 ## 🔒 8. Responsabilidade do Usuário
 
-```pseudo
-REGRA: Uso da conta
+### 📋 Regras de Negócio
 
-usuario é responsável por suas credenciais
-
-usuario NÃO deve compartilhar acesso
-
-usuario deve utilizar o sistema de forma adequada
-```
+- O usuário é responsável por suas credenciais de acesso  
+- Não deve compartilhar login e senha com terceiros  
+- Deve utilizar o sistema de forma adequada e ética  
 
 ---
 
 ## 🎯 9. Objetivo
 
 Garantir que o usuário utilize o sistema de forma correta, segura e eficiente, promovendo o desenvolvimento de competências socioemocionais.
-
