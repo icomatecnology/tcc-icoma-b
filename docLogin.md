@@ -1,39 +1,48 @@
 Adicionar o SDK Admin do Firebase ao servidor
 O Admin SDK é um conjunto de bibliotecas de servidor que permite interagir com o Firebase usando ambientes privilegiados para executar ações.
+
 Pré-requisitos
-•	Verifique se você tem um app de servidor.
-•	Verifique se o servidor executa os parâmetros a seguir, dependendo do Admin SDK usado:
-•	SDK Admin para Node.js: Node.js 18 ou superior (recomendamos o Node.js 20 ou superior)
-•	SDK Admin para Java 8 ou mais recente
-•	SDK Admin para Python 3.9 ou mais recente (recomendamos o Python 3.10 ou mais recente)
+Verifique se você tem um app de servidor.
+Verifique se o servidor executa os parâmetros a seguir, dependendo do Admin SDK usado:
+SDK Admin para Node.js: Node.js 18 ou superior (recomendamos o Node.js 20 ou superior)
+SDK Admin para Java 8 ou mais recente
+SDK Admin para Python 3.9 ou mais recente (recomendamos o Python 3.10 ou mais recente)
 O suporte ao Python 3.9 foi descontinuado.
-•	SDK Admin para Go 1.23 ou mais recente
-•	SDK Admin para .NET: .NET Framework 4.6.2 ou mais recente, .NET Standard 2.0 ou .NET 6.0 ou mais recente (recomendamos .NET 8.0 ou mais recente)
+SDK Admin para Go 1.23 ou mais recente
+SDK Admin para .NET: .NET Framework 4.6.2 ou mais recente, .NET Standard 2.0 ou .NET 6.0 ou mais recente (recomendamos .NET 8.0 ou mais recente)
 O suporte para .NET 6.0 e 7.0 foi descontinuado.
+
 Configurar um projeto e uma conta de serviço do Firebase
-•	um projeto do Firebase;
-•	conta de serviço do SDK Admin do Firebase para se comunicar com o Firebase.
-•	um arquivo de configuração com as credenciais da sua conta de serviço.
+um projeto do Firebase;
+conta de serviço do SDK Admin do Firebase para se comunicar com o Firebase.
+um arquivo de configuração com as credenciais da sua conta de serviço.
+
 Adicionar o SDK
 O SDK Admin para Python do Firebase está disponível via PIP.
 sudo pip install firebase-admin
 Ou, para instalar a biblioteca apenas para o usuário atual, passe a flag --user:
 pip install --user firebase-admin
+
 Inicializar o SDK
 default_app = firebase_admin.initialize_app()
+
 Como usar um token de atualização do OAuth 2.0
 cred = credentials.RefreshToken('path/to/refreshToken.json')
 default_app = firebase_admin.initialize_app(cred)
+
 Inicializar o SDK em ambientes que não são do Google
 Para gerar um arquivo de chave privada da conta de serviço, siga estas etapas:
-1.	No console Firebase, abra Configurações > Contas de serviço.
-2.	Clique em Gerar nova chave privada e selecione Gerar chave para confirmar.
-3.	Armazene com segurança o arquivo JSON que contém a chave.
+No console Firebase, abra Configurações > Contas de serviço.
+Clique em Gerar nova chave privada e selecione Gerar chave para confirmar.
+Armazene com segurança o arquivo JSON que contém a chave.
+
 Para definir a variável de ambiente:
 Com o PowerShell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\username\Downloads\service-account-file.json"
+
 Inicialize o SDK como mostrado:
 default_app = firebase_admin.initialize_app()
+
 Inicializar vários aplicativos
 # Import the Firebase service
 from firebase_admin import auth
@@ -81,5 +90,6 @@ gcloud compute instances describe [INSTANCE_NAME] --format json
 gcloud compute instances set-service-account [INSTANCE_NAME] --service-account "your.gserviceaccount.com" --scopes "https://www.googleapis.com/auth/firebase.database,https://www.googleapis.com/auth/userinfo.email"
 Como testar com credenciais de usuário final da gcloud
 Mudanças são necessárias para usar o Firebase Authentication devido ao seguinte:
-•	O Firebase Authentication não aceita credenciais de usuário final da gcloud geradas usando o ID do cliente do OAuth da gcloud.
-•	O Firebase Authentication exige que o ID do projeto seja fornecido na inicialização para esse tipo de credencial de usuário final.
+O Firebase Authentication não aceita credenciais de usuário final da gcloud geradas usando o ID do cliente do OAuth da gcloud.
+O Firebase Authentication exige que o ID do projeto seja fornecido na inicialização para esse tipo de credencial de usuário final.
+
