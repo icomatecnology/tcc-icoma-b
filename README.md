@@ -46,8 +46,6 @@ Criar um jogo interativo que:
 <img width="720" height="724" alt="IMG_20260422_173929" src="https://github.com/user-attachments/assets/abc9682d-6c07-4c43-8cc9-6b8515cccb67" />
 
 
-## Tecnologias
-[![Generic badge](https://img.shields.io/badge/FRONTDEV-BOOTSTRAP-<COLOR>.svg)](https://shields.io/) [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Generic badge](https://img.shields.io/badge/SOULCODE-RN1-<COLOR>.svg)](https://shields.io/) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 ## Exemplos de Paleta de Cores e Comunicação Visual
 <img width="1469" height="227" alt="Documento de Rafael~2" src="https://github.com/user-attachments/assets/a6c4eee9-c529-459f-b26b-56c6f541247e"
@@ -58,7 +56,9 @@ Criar um jogo interativo que:
 
 <img width="1502" height="228" alt="Documento de Rafael~4" src="https://github.com/user-attachments/assets/96f27e37-61e6-4581-9eb9-3345345ac6f8"
   />
-<img width="1502" height="228" alt="Documento de Rafael~4" src="https://github.com/user-attachments/assets/8ac78a8e-e9a4-45f3-a996-39d56999f24a" />
+  
+<img width="1352" height="238" alt="image" src="https://github.com/user-attachments/assets/8119b577-1af7-4104-86a4-b69261df30d9" />
+
 
 
 
