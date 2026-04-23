@@ -63,12 +63,4 @@ Criar um jogo interativo que:
 
 
 ## Arte promocional
-![9](https://user-images.githubusercontent.com/31005408/178036086-59fc5716-ea51-4490-8ecc-cf08fe769b98.png)
-![1](https://user-images.githubusercontent.com/31005408/178036088-fe19e0cf-7114-454a-abda-2996a7e392ef.png)
-![2](https://user-images.githubusercontent.com/31005408/178036093-8cb5da19-31ca-4fa8-ba73-4241f4ac6b9d.png)
-![3](https://user-images.githubusercontent.com/31005408/178036098-256369eb-ff00-4d26-9b9f-584550a4b185.png)
-![4](https://user-images.githubusercontent.com/31005408/178036103-d63d3f90-b802-483e-b3ce-d3e7d22259f4.png)
-![5](https://user-images.githubusercontent.com/31005408/178036109-e516ccab-fe6d-4099-8ff0-b9c2e07c5065.png)
-![6](https://user-images.githubusercontent.com/31005408/178036113-69538ac1-b5c2-4897-b1c7-2bee739455e3.png)
-![7](https://user-images.githubusercontent.com/31005408/178036126-203ad1bd-0efb-4d2e-9d3b-76db3534fbba.png)
-![8](https://user-images.githubusercontent.com/31005408/178036133-345177aa-3e03-4866-8843-721f7e266ea0.png)
+
