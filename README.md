@@ -1,6 +1,4 @@
-# 🌱 Cubo ML - Website para aprendizado de competências socioemocionais
-
-# Victor Icoma - Desenvolvedor na Etec Sylvio de Mattos Carvalho
+# Cubo ML - Website para aprendizado de competências socioemocionais
 
 Bem-vindo ao repositório do projeto **Cubo ML**, uma aplicação web educacional desenvolvida para praticarmos e consolidarmos conhecimentos de **HTML**, **CSS**, **JavaScript**, além de técnicas modernas de **deploy com Firebase Hosting**, **autenticação com Firebase Authentication** e **banco de dados com Firestore**.
 
@@ -64,3 +62,35 @@ Criar um jogo interativo que:
 
 ## Arte promocional
 
+---
+
+ARTE PROMOCIONAL 1
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 55" src="https://github.com/user-attachments/assets/ed12a471-6834-47e4-b815-6f253a96496f"/>
+
+
+ARTE PROMOCIONAL 2
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 56" src="https://github.com/user-attachments/assets/5f392c4f-6096-43f3-80d3-feaa32d37925"/>
+
+
+ARTE PROMOCIONAL 3
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 56 (1)" src="https://github.com/user-attachments/assets/b186e523-7c4c-46ec-bc88-30f634ec27c8" />
+
+
+ARTE PROMOCIONAL 4
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 56 (2)" src="https://github.com/user-attachments/assets/4b493c20-2646-4244-99ec-fe7c5bebeb6a" />
+
+
+ARTE PROMOCIONAL 5
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 56 (3)" src="https://github.com/user-attachments/assets/cc865371-08b6-415b-96ea-229d7103bba7" />
+
+
+ARTE PROMOCIONAL 6
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 56 (4)" src="https://github.com/user-attachments/assets/c248c15e-bbf7-4c5b-9df6-e5bb30937220" />
+
+
+ARTE PROMOCIONAL 7
+<img width="1254" height="1254" alt="WhatsApp Image 2026-04-29 at 08 35 57" src="https://github.com/user-attachments/assets/fb5775b0-63c1-4ebc-bf46-9e3bdab50ebb" />
+
+---
+
+Esta aplicação está sendo desenvolvida pela **CUBO ML** para desenvolvimento de competências socioemocionais, utilizando o **GitHub Projects** como plataforma de gestão de trabalho
