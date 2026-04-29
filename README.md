@@ -22,7 +22,6 @@ Criar um jogo interativo que:
 | HTML5              | Estrutura da aplicação                         |
 | CSS                | Estilização responsiva da interface       |
 | JavaScript         | Lógica do jogo, questionários, simulador e sistema de pontuação    |
-|My SQL              | Organizar e organizar dadeo de forma estruturada      |
 
 ---
 
