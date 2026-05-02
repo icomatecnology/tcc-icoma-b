@@ -40,7 +40,8 @@ Criar um jogo interativo que:
 
 
 
-<img width="720" height="724" alt="IMG_20260422_173929" src="https://github.com/user-attachments/assets/abc9682d-6c07-4c43-8cc9-6b8515cccb67" />
+<img width="400" height="399" alt="cubo 1" src="https://github.com/user-attachments/assets/c3d50677-61c7-4c45-b724-f9be816d9029" />
+
 
 
 
