@@ -40,7 +40,8 @@ Criar um jogo interativo que:
 
 
 
-<img width="400" height="399" alt="cubo 1" src="https://github.com/user-attachments/assets/c3d50677-61c7-4c45-b724-f9be816d9029" />
+<img width="1024" height="1024" alt="ChatGPT Image 6 de mai  de 2026, 17_51_33" src="https://github.com/user-attachments/assets/943a8864-0dcf-4ff3-ac1f-c94629c6aefc" />
+
 
 
 
