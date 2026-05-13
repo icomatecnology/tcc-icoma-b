@@ -98,3 +98,127 @@ Criar um jogo interativo que:
 ---
 
 Esta aplicação está sendo desenvolvida pela **CUBO ML** para desenvolvimento de competências socioemocionais, utilizando o **GitHub Projects** como plataforma de gestão de trabalho
+
+---
+
+# 👥 Personas de Usuário — Cubo M.L.
+
+As personas representam os principais usuários da plataforma.
+
+O foco do Cubo M.L. é ajudar jovens de 16 a 24 anos a desenvolver competências socioemocionais como:
+
+- 🗣 Comunicação
+- 💡 Inteligência emocional
+- 🤝 Trabalho em equipe
+- 👑 Liderança
+- ❤️ Empatia
+
+---
+
+# 🧑 Persona 1 — Lucas Andrade
+
+
+## 📌 Informações Gerais
+
+| Campo | Descrição |
+|---|---|
+| 👤 Nome | Lucas Andrade |
+| 🎂 Idade | 17 anos |
+| 📚 Escolaridade | Ensino Médio |
+| 📍 Localização | Matão – SP |
+| 💼 Perfil | Estudante |
+
+---
+
+## 🧩 Quem é Lucas?
+
+Lucas está terminando o ensino médio e começa a pensar no futuro profissional.
+
+Mesmo sendo dedicado, possui dificuldade em:
+
+- falar em público;
+- trabalhar em grupo;
+- controlar a ansiedade.
+
+Ele gosta de tecnologia e prefere experiências práticas e interativas.
+
+---
+
+## 😣 Principais Dores
+
+- Insegurança em apresentações
+- Falta de autoconfiança
+- Ansiedade social
+- Dificuldade de comunicação
+
+---
+
+## 💚 Objetivos
+
+- Melhorar a comunicação
+- Desenvolver confiança
+- Aprender a controlar emoções
+
+---
+
+## ⭐ Como o Cubo M.L. ajuda?
+
+O Cubo M.L. oferece:
+
+- desafios interativos;
+- simulações;
+- acompanhamento de evolução;
+- atividades práticas.
+
+---
+
+# 👩 Persona 2 — Mariana Souza
+
+
+## 📌 Informações Gerais
+
+| Campo | Descrição |
+|---|---|
+| 👤 Nome | Mariana Souza |
+| 🎂 Idade | 22 anos |
+| 🎓 Escolaridade | Ensino Superior |
+| 💼 Perfil | Universitária e estagiária |
+
+---
+
+## 🧩 Quem é Mariana?
+
+Mariana busca crescimento profissional e percebe que o mercado exige mais do que conhecimento técnico.
+
+Ela sente dificuldade em:
+
+- liderança;
+- networking;
+- lidar com pressão.
+
+---
+
+## 😣 Principais Dores
+
+- Ansiedade profissional
+- Insegurança em liderança
+- Dificuldade em networking
+
+---
+
+## 💚 Objetivos
+
+- Crescer profissionalmente
+- Melhorar comunicação
+- Desenvolver inteligência emocional
+
+---
+
+# 📊 Comparação das Personas
+
+| Categoria | 🧑 Lucas | 👩 Mariana |
+|---|---|---|
+| Perfil | Ensino Médio | Universitária |
+| Principal dor | Insegurança | Pressão profissional |
+| Objetivo | Autoconfiança | Crescimento profissional |
+| Busca | Desenvolvimento pessoal | Desenvolvimento profissional |
