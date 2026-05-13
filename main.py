@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template('src/index.html')
+    nome = "CuboML.com"
+    return render_template('src/index.html', site = nome)
 
 def main():
     app.run(port=int(os.environ.get('PORT', 80)))
