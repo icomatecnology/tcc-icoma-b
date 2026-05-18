@@ -163,7 +163,7 @@ Ele gosta de tecnologia e prefere experiências práticas e interativas.
 
 ## ⭐ Como o SkillBloom ajuda?
 
-O Cubo M.L. oferece:
+O SkillBloom oferece:
 
 - desafios interativos;
 - simulações;
