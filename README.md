@@ -1,6 +1,6 @@
-# Cubo ML - Website para aprendizado de competências socioemocionais
+# SkillBloom - Website para aprendizado de competências socioemocionais
 
-Bem-vindo ao repositório do projeto **Cubo ML**, uma aplicação web educacional desenvolvida para praticarmos e consolidarmos conhecimentos de **HTML**, **CSS**, **JavaScript**, além de técnicas modernas de **deploy com Firebase Hosting**, **autenticação com Firebase Authentication** e **banco de dados com Firestore**.
+Bem-vindo ao repositório do projeto **SkillBloom**, uma aplicação web educacional desenvolvida para praticarmos e consolidarmos conhecimentos de **HTML**, **CSS**, **JavaScript**, além de técnicas modernas de **deploy com Firebase Hosting**, **autenticação com Firebase Authentication** e **banco de dados com Firestore**.
 
 ---
 
@@ -97,15 +97,15 @@ Criar um jogo interativo que:
 
 ---
 
-Esta aplicação está sendo desenvolvida pela **CUBO ML** para desenvolvimento de competências socioemocionais, utilizando o **GitHub Projects** como plataforma de gestão de trabalho
+Esta aplicação está sendo desenvolvida pela **SkillBloom** para desenvolvimento de competências socioemocionais, utilizando o **GitHub Projects** como plataforma de gestão de trabalho
 
 ---
 
-# 👥 Personas de Usuário — Cubo M.L.
+# 👥 Personas de Usuário — SkillBloom
 
 As personas representam os principais usuários da plataforma.
 
-O foco do Cubo M.L. é ajudar jovens de 16 a 24 anos a desenvolver competências socioemocionais como:
+O foco do SkillBloom é ajudar jovens de 16 a 24 anos a desenvolver competências socioemocionais como:
 
 - 🗣 Comunicação
 - 💡 Inteligência emocional
@@ -161,7 +161,7 @@ Ele gosta de tecnologia e prefere experiências práticas e interativas.
 
 ---
 
-## ⭐ Como o Cubo M.L. ajuda?
+## ⭐ Como o SkillBloom ajuda?
 
 O Cubo M.L. oferece:
 
